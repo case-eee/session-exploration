@@ -12,6 +12,6 @@ class AdminController < ApplicationController
   end
 
   def secret
-    redirect '/wahoo' unless session[:user_id] == 5460
+    redirect '/test' unless session[:user_id] == 5460
   end
 end

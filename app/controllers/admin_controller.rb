@@ -12,6 +12,6 @@ class AdminController < ApplicationController
   end
 
   def secret
-    redirect '/test' unless session[:user_id] == 5460
+    redirect_to '/test' unless session[:user_id] == 5460
   end
 end
